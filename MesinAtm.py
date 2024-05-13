@@ -44,6 +44,7 @@ if hasil_verifikasi:
 
         elif pilihan == "2":
             batas_penarikan = (50000, 100000, 250000, 500000, 1000000)
+            print("Jumlah nominal penarikan sebesar : ",batas_penarikan)
             tarik_uang = int(input("Silahkan, masukan nominal uang penarikan anda : "))
             print("\t")
 
@@ -77,7 +78,7 @@ if hasil_verifikasi:
         elif pilihan == "4":
             print("Kartu anda akan keluar dari mesin ATM....")
             print("\t")
-            print("Terima Kasih sudah menggunakan layanan Bank ABCXYZ")
+            print("Terima Kasih sudah menggunakan layanan Bank Syariah Indonesia")
             print("\t")
             break
         else:
