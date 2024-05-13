@@ -46,14 +46,10 @@ luas_trapesium = 0.5 * (jumlah_rusuk_sejajar1 + jumlah_rusuk_sejajar2) * tinggi_
 print(luas_trapesium)
 
 #program 3
-a = -11
-b = 13
-result_and = a & b
-result_or = a | b
-result_not_a = ~a
-result_xor = a ^ b
+a = 5
+b = 8
 
-print("a & b =", result_and)
-print("a | b =", result_or)
-print("~a =", result_not_a)
-print("a ^ b =", result_xor)
+print("a & b =", a & b)
+print("a | b =", a | b)
+print("~a =", ~a)
+print("a ^ b =", a ^ b)
